@@ -1,0 +1,71 @@
+body {
+  background-color: pink;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  text-align: center;
+  border: 3px;
+  width: 350px;
+  height: 500px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 20px;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  width: 300px;
+  transform: translateX(-50%);
+  background-color: purple;
+  color: #fff;
+  font-weight: 100;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+.wrapper {
+  padding: 20px;
+  align-items: center;
+}
+
+select {
+  width: 88% !important;
+}
+
+#calculate {
+  margin: 20px auto;
+  width: 150px;
+  height: 50px;
+  background-color: orangered;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.tip {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 3px;
+}
+p {
+  font-weight: bold;
+}
+#persons {
+  padding: 2px;
+  font-size: 1em;
+}
+#amount {
+  padding: 2px;
+  font-size: 1em;
+}

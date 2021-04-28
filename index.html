@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+    <h1>TIP CALCULATOR</h1>
+    <div class="wrapper">           
+
+      <p>Total Bill Amount</p>
+    <input type="textbox" id="amount" 
+placeholder="Amount to be paid"> 
+          
+      <p>How was the service?</p><form id="form-level">
+        <form id = "serviceLevel">
+      <input type="radio" name="choice" value="0.30"> Outstanding-30%<br>
+      <input type="radio" name="choice" value="0.20">Good-20%<br>
+      <input type="radio" name="choice" value="0.15">OKish-15%<br>
+      <input type="radio" name="choice" value="0.10"> Bad - 10%<br>
+      <input type="radio" name="choice" value="0"> Never coming back - 0% <br>
+  </form>
+              
+<p>Total number of persons</p>
+<select id="persons">
+</option>
+<option value=1>1</option>
+<option value=2>2</option>
+<option value=3>3</option>
+<option value=4>4</option>
+<option value=5>5</option>
+<option value=6>6</option>
+<option value=7>7</option>
+<option value=8>8</option>
+<option value=9>9</option>
+<option value=10>10</option>
+</select>
+   <input id="calculate" type="button" value="Calculate">
+</div>
+  <div class="tip">   
+<p>Tip amount for each is: <span id="total"></span><span>€</span></p>
+        </div>
+    </div>
+  <script src="Tip Calculator.js"></script>
+</body>
+</html>
